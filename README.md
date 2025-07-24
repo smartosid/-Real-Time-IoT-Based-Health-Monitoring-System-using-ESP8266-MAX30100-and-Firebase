@@ -60,39 +60,7 @@ Copy code
     "spo2": 96
   }
 }
-📦 Getting Started
-1. 📲 Prerequisites
-Arduino IDE
 
-MAX30100 library
-
-FirebaseESP8266 library
-
-ESP8266 board package
-
-2. 🔌 Wiring Diagram
-MAX30100	ESP8266 (NodeMCU)
-VIN	3.3V
-GND	GND
-SDA	D2
-SCL	D1
-
-⚠️ Use 3.3V only. 5V may damage the MAX30100 sensor.
-
-3. 🧪 Upload and Monitor
-Upload the code to NodeMCU via Arduino IDE.
-
-Open Serial Monitor at 115200 baud rate.
-
-Check Firebase Database for live updates.
-
-📈 Output Example
-vbnet
-Copy code
-Connecting to WiFi...
-WiFi Connected
-IP: 192.168.1.10
-MAX30100 Initialized
 BPM: 78 | SpO2: 97%
 ✅ Sent to Firebase /max30100/bpm: 78
 ✅ Sent to Firebase /max30100/spo2: 97
